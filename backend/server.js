@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 // Add the CORS middleware and configure the allowed origins
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://pinvent-app.vercel.app"],
+    origin: ["http://localhost:3000", "https://inventary-frontend.onrender.com"],
     credentials: true,
   })
 );
